@@ -314,7 +314,9 @@ async def typewriter(typew):
     sleep(0.03)
     await typew.edit(str(number) + "%   ████████████████▌")
     sleep(1)
-    await typew.edit("`Target Berhasil Muntah Paku Ngentot, Lu Jelek Makannya Gua Santet`")
+    await typew.edit(
+        "`Target Berhasil Muntah Paku Ngentot, Lu Jelek Makannya Gua Santet`"
+    )
 
 
 CMD_HELP.update(

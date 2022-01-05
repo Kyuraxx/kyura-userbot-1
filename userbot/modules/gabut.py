@@ -16,8 +16,8 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("**NIMBRUNG LAH GOBLOKK!!!**")
     sleep(3)
-    await typew.edit("**DAR DER DOR MENTAL LU GUA GEDOR**") 
-    sleep(4) 
+    await typew.edit("**DAR DER DOR MENTAL LU GUA GEDOR**")
+    sleep(4)
 
 
 @register(outgoing=True, pattern="^.p(?: |$)(.*)")
@@ -28,6 +28,7 @@ async def typewriter(typew):
     await typew.edit("`ASSALAMUALAIKUM ANAK BABI`")
     sleep(2)
 
+
 # Salam
 
 
@@ -37,7 +38,7 @@ async def typewriter(typew):
     await typew.edit("`WAALAIKUMSALAM,JADI NGENTOT GA? `")
     sleep(2)
     await typew.edit("`WAALAIKUMSALAM KONTOL`")
-    sleep(2) 
+    sleep(2)
 
 
 # Menjawab Salam
@@ -66,9 +67,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("✅ `Vxin cina bego`")
     sleep(1)
-    await typew.edit(
-        "`CUMA JOO YANG PALING KEREN NGENTOT!!`"
-    )
+    await typew.edit("`CUMA JOO YANG PALING KEREN NGENTOT!!`")
 
 
 # King Userbot Support
@@ -80,7 +79,8 @@ async def perkenalan(event):
     await event.edit(f"`Astaghfirullah ya Tuhan yesus`")
     sleep(2)
     await event.edit("`itu titit ya anjing`")
-    sleep(2) 
+    sleep(2)
+
 
 # Istigfar
 
