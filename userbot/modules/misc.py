@@ -63,7 +63,7 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """For .shutdown command, shut the bot down."""
-    await event.edit("**Mematikan Skyzu-Userbot....**")
+    await event.edit("**Mematikan Kyura-Userbot....**")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -75,7 +75,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("**Restarting Skyzu-Userbot...**")
+    await event.edit("**Restarting Kyura-Userbot...**")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -118,10 +118,10 @@ async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
         "**Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ**\n"
-        "𝗥𝗲𝗽𝗼 🇮🇩\n"
-        "╰⎆ [𝐒𝐊𝐘𝐙𝐔-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​](https://github.com/Skyzu/skyzu-userbot)\n"
-        "❏ **Oᴡɴᴇʀ​** ⎆ [Skyzu](t.me/skyzu)\n"
-        "❏ **Sᴜᴘᴘᴏʀᴛ**​ ⎆ [groups](t.me/skyzusupport)\n"
+        "𝗥𝗲𝗽𝗼\n"
+        "⚡ [𝐊𝐘𝐔𝐑𝐀-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​](https://github.com/Kyuraxp/kyura-userbot)\n"
+        "⚡ **Oᴡɴᴇʀ​** ⎆ [Kyura](t.me/kyuraonly)\n"
+        "⚡ **Sᴜᴘᴘᴏʀᴛ**​ ⎆ [groups](t.me/kyurasupport)\n"
     )
 
 
