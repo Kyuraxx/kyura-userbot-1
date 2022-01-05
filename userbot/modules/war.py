@@ -18,15 +18,15 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern=r"^\.semangat(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.kyura(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("**Apapun Yang Terjadi**")
+    await typew.edit("**Haii Perkenalkan Nama saya**")
     sleep(3)
-    await typew.edit("**Tetaplah Bernapas**")
+    await typew.edit("**Kyura Askot Jakarta**")
     sleep(1)
-    await typew.edit("**Dan Selalu Bersyukur**")
+    await typew.edit("**Salam kenal ya ngentod**")
 
 
 # Create by myself @localheart
